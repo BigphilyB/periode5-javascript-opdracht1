@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>click spelletje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="game">
+        <p>Set playtime</p><input type="number" id="playerSetGameTime" value="10">
+        <button onclick="setTime();" type="button" >Submit</button>
+      <div id="player1">Score player 1</div>
+      <div id="player2">Score player 2</div>
+      <div id="gameTimeCounter">69</div>
+      <button id="startButton" onclick="start();">START!</button>
+
+      <div id="GameOver">
+        <h1>GAME OVER! <span id="winner"></span></h1>
+        <b>Score Player 1 <span id="player1Score"></span></b>
+        <b>Score Player 2 <span id="player2Score"></span></b>
+
+      </div>
+      <!-- 
+        <script src="player1.js"></script> 
+        <script src="player2.js"></script>  -->
+      <script src="index.js"></script>
+
+    </div>
+  </div>
+</body>
+
+</html>
